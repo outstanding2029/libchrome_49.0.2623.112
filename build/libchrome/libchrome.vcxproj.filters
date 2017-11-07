@@ -1,0 +1,3327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{71204fe8-1f8d-4f5b-9fda-dabb0673e75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\metrics">
+      <UniqueIdentifier>{3e356db6-4def-426b-a709-af7a0d3403f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\allocator">
+      <UniqueIdentifier>{85873916-0332-4a43-a57b-5242f5a6139e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\containers">
+      <UniqueIdentifier>{f265f9f2-1cd0-49c0-b383-3f7cb5600537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\debug">
+      <UniqueIdentifier>{d9a508ed-a8b5-408d-ad27-a9580ef6318b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\files">
+      <UniqueIdentifier>{858b7c8d-02fe-413c-9fb0-db62d3b3d90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\json">
+      <UniqueIdentifier>{1fa47fa3-7dcf-4315-8b9e-dd20fd43f523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\memory">
+      <UniqueIdentifier>{dd83dc55-976e-4c0d-a6e3-cea58381e012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\message_loop">
+      <UniqueIdentifier>{acf1c42f-8aaa-4ba0-8826-1da84e883f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\win">
+      <UniqueIdentifier>{fdf9ca69-9661-48a3-88a4-c19cecc83858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\numerics">
+      <UniqueIdentifier>{438d76db-b34c-4a2b-bfcf-08b6e13bb237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\power_monitor">
+      <UniqueIdentifier>{7b6b14e4-cbbf-431e-b206-f439f46e2c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\prefs">
+      <UniqueIdentifier>{8ce6bd7b-8ea7-491f-8942-5baafd741029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\process">
+      <UniqueIdentifier>{2c2fbf80-6f48-4908-9e11-b9cab5447a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\profiler">
+      <UniqueIdentifier>{86f40909-794c-48fa-8966-7fa0db4e2de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\strings">
+      <UniqueIdentifier>{63d499da-48ca-4949-a846-28f74d8a1e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\synchronization">
+      <UniqueIdentifier>{5baa07ae-0103-442b-81f6-704f1312c0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\system_monitor">
+      <UniqueIdentifier>{77dda8f1-ec8b-4b0e-882a-f3f6d5ad8635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\task">
+      <UniqueIdentifier>{92e6f61b-4287-46a4-af30-e5c7e3c645f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\third_party">
+      <UniqueIdentifier>{19e11941-ae0a-4a62-aec0-64aaf1f1f59b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\third_party\dynamic_annotations">
+      <UniqueIdentifier>{cc5c6333-1f58-4a13-9b4e-80da26a90959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\third_party\dmg_fp">
+      <UniqueIdentifier>{d70c8e5b-24b4-4915-bc77-71e4026a0d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\third_party\icu">
+      <UniqueIdentifier>{6d7b44c8-af9a-4e2e-a04b-869858c59792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\third_party\nspr">
+      <UniqueIdentifier>{24ef0a63-2798-4c5f-b12f-c05ed98b5196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\third_party\superfasthash">
+      <UniqueIdentifier>{572f582b-cf8e-42b5-8bdb-ee8d18306edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\third_party\xdg_mime">
+      <UniqueIdentifier>{2746a491-e666-46ea-900b-06186012a023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\threading">
+      <UniqueIdentifier>{25c524ee-d671-4bce-b8d2-9c905459ebad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\time">
+      <UniqueIdentifier>{54e3e865-0a51-4986-9f08-56499bc665e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\timer">
+      <UniqueIdentifier>{075163bc-240b-4a7d-8ddc-f92762dddb9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\trace_event">
+      <UniqueIdentifier>{82b32e53-243c-4e3c-9d2c-70e11b654f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\trace_event\common">
+      <UniqueIdentifier>{4172f95a-3d96-46ba-bb38-e3462f06bd3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{e856df5f-6f7a-483e-a693-10f22be1c069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\modp_b64">
+      <UniqueIdentifier>{5be12990-4a9b-4a40-b39e-fa97e76d4694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl">
+      <UniqueIdentifier>{380a3f08-9dea-46f4-a815-9840c5e7e0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{b213b4f8-50a4-4fd7-8c59-5ce6fa27d1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipc">
+      <UniqueIdentifier>{25ea65f4-5908-4266-bbbd-26a91e86f064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src">
+      <UniqueIdentifier>{8f509448-21fb-4c49-87d2-03556aa87072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto">
+      <UniqueIdentifier>{b8c753e4-34f2-430c-9ab1-7dac8ef71e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\ssl">
+      <UniqueIdentifier>{7116063d-03b5-44a3-a02b-f4da49b476f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\aes">
+      <UniqueIdentifier>{011463af-4055-4267-a56e-c127e03e157f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\asn1">
+      <UniqueIdentifier>{8fb11f9f-28f7-43e6-9702-53773fbab82c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\base64">
+      <UniqueIdentifier>{9e66d502-d4d7-46a3-ab19-a816892cb9c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\bio">
+      <UniqueIdentifier>{dd0e6eda-e6a5-4991-a2de-f69255f8a6b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\bn">
+      <UniqueIdentifier>{6bfd7614-d8f6-4875-9ffe-137b01e496ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\buf">
+      <UniqueIdentifier>{5abc045b-1d2a-456c-81e5-1bb566546cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\bytestring">
+      <UniqueIdentifier>{33d1b798-9883-4c32-a049-6bb594717cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\chacha">
+      <UniqueIdentifier>{83a45701-f552-4e00-994f-bc3de1ff7975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\cipher">
+      <UniqueIdentifier>{6af59bae-adc2-4253-9401-7b2fcba0cf4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\cmac">
+      <UniqueIdentifier>{1bd82da5-3b41-4d7f-9e43-f7a8874f4948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\conf">
+      <UniqueIdentifier>{a1c6adcd-3b93-459a-964c-c795153c8e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\curve25519">
+      <UniqueIdentifier>{b7f0d85e-8a94-4a16-8868-90553fce22a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\des">
+      <UniqueIdentifier>{e626bdd4-0f44-43be-bdf1-a225567f47aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\dh">
+      <UniqueIdentifier>{b2f07db2-d44d-4a9d-a593-b86274ec3e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\digest">
+      <UniqueIdentifier>{3247733d-428a-46c7-9a15-13a2f6e3837b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\dsa">
+      <UniqueIdentifier>{17e8b8eb-81e0-47f8-b6d0-996b7300c1d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\ec">
+      <UniqueIdentifier>{4d858969-56aa-4d18-ab6b-1b1659e2af58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\ecdh">
+      <UniqueIdentifier>{e2791c5c-4ec5-4ce2-b6aa-0e3afc4462e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\ecdsa">
+      <UniqueIdentifier>{adf91443-4d70-459c-8dab-6a1698cf1854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\engine">
+      <UniqueIdentifier>{db19343e-4033-49bd-87a4-1a164bd0b7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\err">
+      <UniqueIdentifier>{26d69120-604e-4314-b740-51a2d2108e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\evp">
+      <UniqueIdentifier>{19e8b0f8-bb45-48b0-a645-4779f136288d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\hkdf">
+      <UniqueIdentifier>{2318da4d-e2b4-431c-b895-b34d0a752d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\hmac">
+      <UniqueIdentifier>{76ffcaae-4df4-4dfe-b286-3c4060cba5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\lhash">
+      <UniqueIdentifier>{c97ad758-05fc-4f90-a145-63a403e7d1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\md4">
+      <UniqueIdentifier>{23184ada-da3a-49b4-9142-04050122823a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\md5">
+      <UniqueIdentifier>{35a0d858-f781-45d5-b90f-3d66744f0b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\modes">
+      <UniqueIdentifier>{bfd97d53-32b6-4e44-a8de-dd6035674d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\obj">
+      <UniqueIdentifier>{ec1f4377-7e7e-4947-b5b7-239edb1af0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\pem">
+      <UniqueIdentifier>{baa9ca8f-c3dc-4bc3-a3ee-f1fd1afee790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\pkcs8">
+      <UniqueIdentifier>{bdf1cdb7-3f5e-4cef-a8fa-a20ffc0aabb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\poly1305">
+      <UniqueIdentifier>{d4771a1f-b077-4c2b-ad6f-fa390c5fdb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\rand">
+      <UniqueIdentifier>{176118f8-37b7-499d-9a70-1f9c9902a0e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\rc4">
+      <UniqueIdentifier>{b149c543-70db-44e6-811d-eaa207829bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\rsa">
+      <UniqueIdentifier>{af47b756-699c-473a-8dc0-99b5172dcec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\sha">
+      <UniqueIdentifier>{921a1fcc-4d5a-482c-b060-5bd4059cd164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\stack">
+      <UniqueIdentifier>{3fad1c1d-4332-475a-8ef8-f2daf108e47d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\x509">
+      <UniqueIdentifier>{8751a72b-d5ff-43aa-ad4a-f8bd32eef78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\x509v3">
+      <UniqueIdentifier>{90597625-8b16-4002-a5bf-a525b53cf914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\crypto\bn\asm">
+      <UniqueIdentifier>{670577fb-5f5f-4d5b-98bd-612ddf4ab47a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\boringssl\src\ssl\pqueue">
+      <UniqueIdentifier>{4ec0897e-e62f-417c-876c-a18438cc4cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\..">
+      <UniqueIdentifier>{868919a5-5079-4547-bdf7-813cb578ad4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\..\build">
+      <UniqueIdentifier>{6ffe22fc-a510-4b30-8e96-80570b573e67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\base\allocator\allocator_check.cc">
+      <Filter>base\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\allocator\allocator_extension.cc">
+      <Filter>base\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\debug\alias.cc">
+      <Filter>base\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\debug\asan_invalid_access.cc">
+      <Filter>base\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\debug\close_handle_hook_win.cc">
+      <Filter>base\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\debug\crash_logging.cc">
+      <Filter>base\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\debug\debugger.cc">
+      <Filter>base\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\debug\debugger_win.cc">
+      <Filter>base\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\debug\dump_without_crashing.cc">
+      <Filter>base\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\debug\gdi_debug_util_win.cc">
+      <Filter>base\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\debug\profiler.cc">
+      <Filter>base\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\debug\stack_trace.cc">
+      <Filter>base\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\debug\stack_trace_win.cc">
+      <Filter>base\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\debug\task_annotator.cc">
+      <Filter>base\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\file.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\file_enumerator.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\file_enumerator_win.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\file_path.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\file_path_constants.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\file_path_watcher.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\file_path_watcher_win.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\file_proxy.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\file_tracing.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\file_util.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\file_util_proxy.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\file_util_win.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\file_win.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\important_file_writer.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\memory_mapped_file.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\memory_mapped_file_win.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\scoped_file.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\files\scoped_temp_dir.cc">
+      <Filter>base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\json\json_file_value_serializer.cc">
+      <Filter>base\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\json\json_parser.cc">
+      <Filter>base\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\json\json_reader.cc">
+      <Filter>base\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\json\json_string_value_serializer.cc">
+      <Filter>base\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\json\json_value_converter.cc">
+      <Filter>base\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\json\json_writer.cc">
+      <Filter>base\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\json\string_escape.cc">
+      <Filter>base\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\memory\aligned_memory.cc">
+      <Filter>base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\memory\discardable_memory.cc">
+      <Filter>base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\memory\discardable_memory_allocator.cc">
+      <Filter>base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\memory\discardable_shared_memory.cc">
+      <Filter>base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\memory\memory_pressure_listener.cc">
+      <Filter>base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\memory\memory_pressure_monitor.cc">
+      <Filter>base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\memory\memory_pressure_monitor_win.cc">
+      <Filter>base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\memory\ref_counted.cc">
+      <Filter>base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\memory\ref_counted_memory.cc">
+      <Filter>base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\memory\shared_memory_handle_win.cc">
+      <Filter>base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\memory\shared_memory_win.cc">
+      <Filter>base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\memory\singleton.cc">
+      <Filter>base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\memory\weak_ptr.cc">
+      <Filter>base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\message_loop\incoming_task_queue.cc">
+      <Filter>base\message_loop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\message_loop\message_loop.cc">
+      <Filter>base\message_loop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\message_loop\message_loop_task_runner.cc">
+      <Filter>base\message_loop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\message_loop\message_pump.cc">
+      <Filter>base\message_loop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\message_loop\message_pump_default.cc">
+      <Filter>base\message_loop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\message_loop\message_pump_win.cc">
+      <Filter>base\message_loop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\metrics\bucket_ranges.cc">
+      <Filter>base\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\metrics\field_trial.cc">
+      <Filter>base\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\metrics\histogram.cc">
+      <Filter>base\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\metrics\histogram_base.cc">
+      <Filter>base\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\metrics\histogram_delta_serialization.cc">
+      <Filter>base\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\metrics\histogram_samples.cc">
+      <Filter>base\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\metrics\histogram_snapshot_manager.cc">
+      <Filter>base\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\metrics\metrics_hashes.cc">
+      <Filter>base\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\metrics\sample_map.cc">
+      <Filter>base\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\metrics\sample_vector.cc">
+      <Filter>base\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\metrics\sparse_histogram.cc">
+      <Filter>base\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\metrics\statistics_recorder.cc">
+      <Filter>base\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\metrics\user_metrics.cc">
+      <Filter>base\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\dllmain.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\enum_variant.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\event_trace_controller.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\event_trace_provider.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\i18n.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\iat_patch_function.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\iunknown_impl.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\message_window.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\object_watcher.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\pe_image.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\process_startup_helper.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\registry.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\resource_util.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\scoped_bstr.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\scoped_handle.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\scoped_process_information.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\scoped_variant.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\shortcut.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\startup_information.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\win_util.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\windows_version.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\win\wrapped_window_proc.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\power_monitor\power_monitor.cc">
+      <Filter>base\power_monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\power_monitor\power_monitor_device_source.cc">
+      <Filter>base\power_monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\power_monitor\power_monitor_device_source_win.cc">
+      <Filter>base\power_monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\power_monitor\power_monitor_source.cc">
+      <Filter>base\power_monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\default_pref_store.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\json_pref_store.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\overlay_user_pref_store.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\pref_change_registrar.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\pref_member.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\pref_notifier_impl.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\pref_registry.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\pref_registry_simple.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\pref_service.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\pref_service_factory.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\pref_store.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\pref_value_map.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\pref_value_store.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\scoped_user_pref_update.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\prefs\value_map_pref_store.cc">
+      <Filter>base\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\kill.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\kill_win.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\launch.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\launch_win.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\memory.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\memory_win.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\process_handle.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\process_handle_win.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\process_info_win.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\process_iterator.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\process_iterator_win.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\process_metrics.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\process_metrics_win.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\process\process_win.cc">
+      <Filter>base\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\profiler\alternate_timer.cc">
+      <Filter>base\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\profiler\native_stack_sampler.cc">
+      <Filter>base\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\profiler\native_stack_sampler_win.cc">
+      <Filter>base\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\profiler\scoped_profile.cc">
+      <Filter>base\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\profiler\scoped_tracker.cc">
+      <Filter>base\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\profiler\stack_sampling_profiler.cc">
+      <Filter>base\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\profiler\tracked_time.cc">
+      <Filter>base\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\profiler\win32_stack_frame_unwinder.cc">
+      <Filter>base\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\latin1_string_conversions.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\nullable_string16.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\pattern.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\safe_sprintf.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\string_number_conversions.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\string_piece.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\string_split.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\string_util.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\string_util_constants.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\stringprintf.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\sys_string_conversions_win.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\utf_offset_string_conversions.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\utf_string_conversion_utils.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\strings\utf_string_conversions.cc">
+      <Filter>base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\synchronization\cancellation_flag.cc">
+      <Filter>base\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\synchronization\condition_variable_win.cc">
+      <Filter>base\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\synchronization\lock.cc">
+      <Filter>base\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\synchronization\lock_impl_win.cc">
+      <Filter>base\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\synchronization\waitable_event_watcher_win.cc">
+      <Filter>base\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\synchronization\waitable_event_win.cc">
+      <Filter>base\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\system_monitor\system_monitor.cc">
+      <Filter>base\system_monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\task\cancelable_task_tracker.cc">
+      <Filter>base\task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\third_party\dynamic_annotations\dynamic_annotations.c">
+      <Filter>base\third_party\dynamic_annotations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\third_party\dmg_fp\dtoa_wrapper.cc">
+      <Filter>base\third_party\dmg_fp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\third_party\dmg_fp\g_fmt.cc">
+      <Filter>base\third_party\dmg_fp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\third_party\icu\icu_utf.cc">
+      <Filter>base\third_party\icu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\third_party\superfasthash\superfasthash.c">
+      <Filter>base\third_party\superfasthash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\third_party\nspr\prtime.cc">
+      <Filter>base\third_party\nspr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\non_thread_safe_impl.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\platform_thread_win.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\post_task_and_reply_impl.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\sequenced_task_runner_handle.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\sequenced_worker_pool.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\simple_thread.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\thread.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\thread_checker_impl.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\thread_collision_warner.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\thread_id_name_manager.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\thread_local_storage.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\thread_local_storage_win.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\thread_local_win.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\thread_restrictions.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\watchdog.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\worker_pool.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\threading\worker_pool_win.cc">
+      <Filter>base\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\time\clock.cc">
+      <Filter>base\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\time\default_clock.cc">
+      <Filter>base\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\time\default_tick_clock.cc">
+      <Filter>base\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\time\tick_clock.cc">
+      <Filter>base\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\time\time.cc">
+      <Filter>base\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\time\time_win.cc">
+      <Filter>base\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\timer\elapsed_timer.cc">
+      <Filter>base\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\timer\hi_res_timer_manager_win.cc">
+      <Filter>base\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\timer\mock_timer.cc">
+      <Filter>base\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\timer\timer.cc">
+      <Filter>base\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\heap_profiler_allocation_context.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\heap_profiler_allocation_context_tracker.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\heap_profiler_allocation_register.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\heap_profiler_allocation_register_win.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\heap_profiler_heap_dump_writer.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\heap_profiler_stack_frame_deduplicator.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\heap_profiler_type_name_deduplicator.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\memory_allocator_dump.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\memory_allocator_dump_guid.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\memory_dump_manager.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\memory_dump_request_args.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\memory_dump_session_state.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\process_memory_dump.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\process_memory_maps.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\process_memory_totals.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\process_memory_totals_dump_provider.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\trace_buffer.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\trace_config.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\trace_event_argument.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\trace_event_etw_export_win.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\trace_event_impl.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\trace_event_memory_overhead.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\trace_event_synthetic_delay.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\trace_event_system_stats_monitor.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\trace_log.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\trace_log_constants.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\trace_sampling_thread.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\tracing_agent.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\trace_event\winheap_dump_provider_win.cc">
+      <Filter>base\trace_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\at_exit.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\barrier_closure.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\base_paths.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\base_paths_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\base_switches.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\base64.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\base64url.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\big_endian.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\bind_helpers.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\build_time.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\callback_helpers.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\callback_internal.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\check_example.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\command_line.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\cpu.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\deferred_sequenced_task_runner.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\environment.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\feature_list.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\file_version_info_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\guid.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\guid_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\hash.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\lazy_instance.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\location.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\logging.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\logging_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\md5.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\native_library_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\path_service.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\pending_task.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\pickle.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\rand_util.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\rand_util_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\run_loop.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\scoped_native_library.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\sequence_checker_impl.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\sequenced_task_runner.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\sha1_portable.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\supports_user_data.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\sync_socket_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\sys_info.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\sys_info_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\task_runner.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\thread_task_runner_handle.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\tracked_objects.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\tracking_info.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\value_conversions.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\values.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\version.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\vlog.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\modp_b64\modp_b64.cc">
+      <Filter>third_party\modp_b64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\err_data.c">
+      <Filter>third_party\boringssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\aes\aes.c">
+      <Filter>third_party\boringssl\src\crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\aes\mode_wrappers.c">
+      <Filter>third_party\boringssl\src\crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_bitstr.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_bool.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_bytes.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_d2i_fp.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_dup.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_enum.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_gentm.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_i2d_fp.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_int.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_mbstr.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_object.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_octet.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_print.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_strnid.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_time.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_type.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_utctm.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\a_utf8.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\asn_pack.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\asn1_lib.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\asn1_par.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\bio_asn1.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\bio_ndef.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\f_enum.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\f_int.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\f_string.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\t_bitst.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\t_pkey.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\tasn_dec.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\tasn_enc.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\tasn_fre.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\tasn_new.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\tasn_prn.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\tasn_typ.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\tasn_utl.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\x_bignum.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\asn1\x_long.c">
+      <Filter>third_party\boringssl\src\crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bytestring\ber.c">
+      <Filter>third_party\boringssl\src\crypto\bytestring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bytestring\cbb.c">
+      <Filter>third_party\boringssl\src\crypto\bytestring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bytestring\cbs.c">
+      <Filter>third_party\boringssl\src\crypto\bytestring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bio\bio.c">
+      <Filter>third_party\boringssl\src\crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bio\bio_mem.c">
+      <Filter>third_party\boringssl\src\crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bio\buffer.c">
+      <Filter>third_party\boringssl\src\crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bio\connect.c">
+      <Filter>third_party\boringssl\src\crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bio\fd.c">
+      <Filter>third_party\boringssl\src\crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bio\file.c">
+      <Filter>third_party\boringssl\src\crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bio\hexdump.c">
+      <Filter>third_party\boringssl\src\crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bio\pair.c">
+      <Filter>third_party\boringssl\src\crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bio\printf.c">
+      <Filter>third_party\boringssl\src\crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bio\socket.c">
+      <Filter>third_party\boringssl\src\crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bio\socket_helper.c">
+      <Filter>third_party\boringssl\src\crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\base64\base64.c">
+      <Filter>third_party\boringssl\src\crypto\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\add.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\bn.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\bn_asn1.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\cmp.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\convert.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\ctx.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\div.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\exponentiation.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\gcd.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\generic.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\kronecker.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\montgomery.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\mul.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\prime.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\random.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\rsaz_exp.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\shift.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\sqrt.c">
+      <Filter>third_party\boringssl\src\crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\bn\asm\x86_64-gcc.c">
+      <Filter>third_party\boringssl\src\crypto\bn\asm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\buf\buf.c">
+      <Filter>third_party\boringssl\src\crypto\buf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\chacha\chacha_generic.c">
+      <Filter>third_party\boringssl\src\crypto\chacha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\chacha\chacha_vec.c">
+      <Filter>third_party\boringssl\src\crypto\chacha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\cipher\aead.c">
+      <Filter>third_party\boringssl\src\crypto\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\cipher\cipher.c">
+      <Filter>third_party\boringssl\src\crypto\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\cipher\derive_key.c">
+      <Filter>third_party\boringssl\src\crypto\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\cipher\e_aes.c">
+      <Filter>third_party\boringssl\src\crypto\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\cipher\e_chacha20poly1305.c">
+      <Filter>third_party\boringssl\src\crypto\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\cipher\e_des.c">
+      <Filter>third_party\boringssl\src\crypto\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\cipher\e_null.c">
+      <Filter>third_party\boringssl\src\crypto\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\cipher\e_rc2.c">
+      <Filter>third_party\boringssl\src\crypto\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\cipher\e_rc4.c">
+      <Filter>third_party\boringssl\src\crypto\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\cipher\e_ssl3.c">
+      <Filter>third_party\boringssl\src\crypto\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\cipher\e_tls.c">
+      <Filter>third_party\boringssl\src\crypto\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\cipher\tls_cbc.c">
+      <Filter>third_party\boringssl\src\crypto\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\cmac\cmac.c">
+      <Filter>third_party\boringssl\src\crypto\cmac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\conf\conf.c">
+      <Filter>third_party\boringssl\src\crypto\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\curve25519\curve25519.c">
+      <Filter>third_party\boringssl\src\crypto\curve25519</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\des\des.c">
+      <Filter>third_party\boringssl\src\crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\dh\check.c">
+      <Filter>third_party\boringssl\src\crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\dh\dh.c">
+      <Filter>third_party\boringssl\src\crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\dh\dh_asn1.c">
+      <Filter>third_party\boringssl\src\crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\dh\params.c">
+      <Filter>third_party\boringssl\src\crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\digest\digest.c">
+      <Filter>third_party\boringssl\src\crypto\digest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\digest\digests.c">
+      <Filter>third_party\boringssl\src\crypto\digest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\dsa\dsa.c">
+      <Filter>third_party\boringssl\src\crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\dsa\dsa_asn1.c">
+      <Filter>third_party\boringssl\src\crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ec\ec.c">
+      <Filter>third_party\boringssl\src\crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ec\ec_asn1.c">
+      <Filter>third_party\boringssl\src\crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ec\ec_key.c">
+      <Filter>third_party\boringssl\src\crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ec\ec_montgomery.c">
+      <Filter>third_party\boringssl\src\crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ec\oct.c">
+      <Filter>third_party\boringssl\src\crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ec\p224-64.c">
+      <Filter>third_party\boringssl\src\crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ec\p256-64.c">
+      <Filter>third_party\boringssl\src\crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ec\p256-x86_64.c">
+      <Filter>third_party\boringssl\src\crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ec\simple.c">
+      <Filter>third_party\boringssl\src\crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ec\util-64.c">
+      <Filter>third_party\boringssl\src\crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ec\wnaf.c">
+      <Filter>third_party\boringssl\src\crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ecdh\ecdh.c">
+      <Filter>third_party\boringssl\src\crypto\ecdh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ecdsa\ecdsa.c">
+      <Filter>third_party\boringssl\src\crypto\ecdsa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\ecdsa\ecdsa_asn1.c">
+      <Filter>third_party\boringssl\src\crypto\ecdsa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\engine\engine.c">
+      <Filter>third_party\boringssl\src\crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\err\err.c">
+      <Filter>third_party\boringssl\src\crypto\err</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\evp\algorithm.c">
+      <Filter>third_party\boringssl\src\crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\evp\digestsign.c">
+      <Filter>third_party\boringssl\src\crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\evp\evp.c">
+      <Filter>third_party\boringssl\src\crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\evp\evp_asn1.c">
+      <Filter>third_party\boringssl\src\crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\evp\evp_ctx.c">
+      <Filter>third_party\boringssl\src\crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\evp\p_dsa_asn1.c">
+      <Filter>third_party\boringssl\src\crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\evp\p_ec.c">
+      <Filter>third_party\boringssl\src\crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\evp\p_ec_asn1.c">
+      <Filter>third_party\boringssl\src\crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\evp\p_rsa.c">
+      <Filter>third_party\boringssl\src\crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\evp\p_rsa_asn1.c">
+      <Filter>third_party\boringssl\src\crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\evp\pbkdf.c">
+      <Filter>third_party\boringssl\src\crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\evp\sign.c">
+      <Filter>third_party\boringssl\src\crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\hkdf\hkdf.c">
+      <Filter>third_party\boringssl\src\crypto\hkdf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\hmac\hmac.c">
+      <Filter>third_party\boringssl\src\crypto\hmac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\lhash\lhash.c">
+      <Filter>third_party\boringssl\src\crypto\lhash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\md4\md4.c">
+      <Filter>third_party\boringssl\src\crypto\md4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\md5\md5.c">
+      <Filter>third_party\boringssl\src\crypto\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\modes\cbc.c">
+      <Filter>third_party\boringssl\src\crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\modes\cfb.c">
+      <Filter>third_party\boringssl\src\crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\modes\ctr.c">
+      <Filter>third_party\boringssl\src\crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\modes\gcm.c">
+      <Filter>third_party\boringssl\src\crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\modes\ofb.c">
+      <Filter>third_party\boringssl\src\crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\rc4\rc4.c">
+      <Filter>third_party\boringssl\src\crypto\rc4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\rsa\blinding.c">
+      <Filter>third_party\boringssl\src\crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\rsa\padding.c">
+      <Filter>third_party\boringssl\src\crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\rsa\rsa.c">
+      <Filter>third_party\boringssl\src\crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\rsa\rsa_asn1.c">
+      <Filter>third_party\boringssl\src\crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\rsa\rsa_impl.c">
+      <Filter>third_party\boringssl\src\crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\sha\sha1.c">
+      <Filter>third_party\boringssl\src\crypto\sha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\sha\sha256.c">
+      <Filter>third_party\boringssl\src\crypto\sha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\sha\sha512.c">
+      <Filter>third_party\boringssl\src\crypto\sha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\stack\stack.c">
+      <Filter>third_party\boringssl\src\crypto\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\a_digest.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\a_sign.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\a_strex.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\a_verify.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\asn1_gen.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\by_dir.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\by_file.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\i2d_pr.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\pkcs7.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\t_crl.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\t_req.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\t_x509.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\t_x509a.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_algor.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_all.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_attrib.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_crl.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_exten.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_info.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_name.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_pkey.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_pubkey.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_req.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_sig.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_spki.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_val.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_x509.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x_x509a.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_att.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_cmp.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_d2.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_def.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_ext.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_lu.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_obj.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_r2x.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_req.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_set.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_trs.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_txt.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_v3.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_vfy.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509_vpm.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509cset.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509name.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509rset.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509spki.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509\x509type.c">
+      <Filter>third_party\boringssl\src\crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\pcy_cache.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\pcy_data.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\pcy_lib.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\pcy_map.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\pcy_node.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\pcy_tree.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_akey.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_akeya.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_alt.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_bcons.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_bitst.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_conf.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_cpols.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_crld.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_enum.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_extku.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_genn.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_ia5.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_info.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_int.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_lib.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_ncons.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_pci.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_pcia.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_pcons.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_pku.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_pmaps.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_prn.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_purp.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_skey.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_sxnet.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\x509v3\v3_utl.c">
+      <Filter>third_party\boringssl\src\crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\obj\obj.c">
+      <Filter>third_party\boringssl\src\crypto\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\obj\obj_xref.c">
+      <Filter>third_party\boringssl\src\crypto\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\pem\pem_all.c">
+      <Filter>third_party\boringssl\src\crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\pem\pem_info.c">
+      <Filter>third_party\boringssl\src\crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\pem\pem_lib.c">
+      <Filter>third_party\boringssl\src\crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\pem\pem_oth.c">
+      <Filter>third_party\boringssl\src\crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\pem\pem_pk8.c">
+      <Filter>third_party\boringssl\src\crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\pem\pem_pkey.c">
+      <Filter>third_party\boringssl\src\crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\pem\pem_x509.c">
+      <Filter>third_party\boringssl\src\crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\pem\pem_xaux.c">
+      <Filter>third_party\boringssl\src\crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\pkcs8\p5_pbe.c">
+      <Filter>third_party\boringssl\src\crypto\pkcs8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\pkcs8\p5_pbev2.c">
+      <Filter>third_party\boringssl\src\crypto\pkcs8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\pkcs8\p8_pkey.c">
+      <Filter>third_party\boringssl\src\crypto\pkcs8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\pkcs8\pkcs8.c">
+      <Filter>third_party\boringssl\src\crypto\pkcs8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\poly1305\poly1305.c">
+      <Filter>third_party\boringssl\src\crypto\poly1305</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\poly1305\poly1305_arm.c">
+      <Filter>third_party\boringssl\src\crypto\poly1305</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\poly1305\poly1305_vec.c">
+      <Filter>third_party\boringssl\src\crypto\poly1305</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\rand\rand.c">
+      <Filter>third_party\boringssl\src\crypto\rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\rand\urandom.c">
+      <Filter>third_party\boringssl\src\crypto\rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\crypto\rand\windows.c">
+      <Filter>third_party\boringssl\src\crypto\rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\pqueue\pqueue.c">
+      <Filter>third_party\boringssl\src\ssl\pqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\custom_extensions.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\d1_both.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\d1_clnt.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\d1_lib.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\d1_meth.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\d1_pkt.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\d1_srtp.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\d1_srvr.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\dtls_record.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\s3_both.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\s3_clnt.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\s3_enc.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\s3_lib.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\s3_meth.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\s3_pkt.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\s3_srvr.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\ssl_aead_ctx.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\ssl_asn1.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\ssl_buffer.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\ssl_cert.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\ssl_cipher.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\ssl_file.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\ssl_lib.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\ssl_rsa.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\ssl_session.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\ssl_stat.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\t1_enc.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\t1_lib.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\boringssl\src\ssl\tls_record.c">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\aead_openssl.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\capi_util.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\curve25519_openssl.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\ec_private_key_openssl.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\ec_signature_creator.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\ec_signature_creator_openssl.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\encryptor.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\encryptor_openssl.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\ghash.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\hkdf.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\hmac.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\hmac_openssl.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\mac_security_services_lock.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\openssl_bio_string.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\openssl_util.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\p224.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\p224_spake.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\random.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\rsa_private_key.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\rsa_private_key_openssl.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\secure_hash_openssl.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\secure_util.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\sha2.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\signature_creator_openssl.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\signature_verifier_openssl.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crypto\symmetric_key_openssl.cc">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\attachment_broker.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\attachment_broker_privileged.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\attachment_broker_privileged_win.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\attachment_broker_unprivileged.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\attachment_broker_unprivileged_win.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\brokerable_attachment.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\brokerable_attachment_win.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\handle_attachment_win.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\handle_win.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_channel.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_channel_common.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_channel_factory.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_channel_proxy.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_channel_reader.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_channel_win.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_endpoint.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_handle_win.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_logging.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_message.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_message_attachment.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_message_attachment_set.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_message_generator.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_message_utils.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_platform_file.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_switches.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_sync_channel.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_sync_message.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\ipc_sync_message_filter.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\message_filter.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\message_filter_router.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ipc\placeholder_brokerable_attachment.cc">
+      <Filter>ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>base\..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\base\allocator\allocator_check.h">
+      <Filter>base\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\allocator\allocator_extension.h">
+      <Filter>base\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\containers\adapters.h">
+      <Filter>base\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\containers\hash_tables.h">
+      <Filter>base\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\containers\linked_list.h">
+      <Filter>base\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\containers\mru_cache.h">
+      <Filter>base\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\containers\scoped_ptr_hash_map.h">
+      <Filter>base\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\containers\small_map.h">
+      <Filter>base\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\containers\stack_container.h">
+      <Filter>base\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\debug\alias.h">
+      <Filter>base\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\debug\asan_invalid_access.h">
+      <Filter>base\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\debug\close_handle_hook_win.h">
+      <Filter>base\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\debug\crash_logging.h">
+      <Filter>base\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\debug\debugger.h">
+      <Filter>base\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\debug\dump_without_crashing.h">
+      <Filter>base\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\debug\gdi_debug_util_win.h">
+      <Filter>base\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\debug\leak_annotations.h">
+      <Filter>base\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\debug\leak_tracker.h">
+      <Filter>base\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\debug\profiler.h">
+      <Filter>base\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\debug\stack_trace.h">
+      <Filter>base\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\debug\task_annotator.h">
+      <Filter>base\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\files\dir_reader_fallback.h">
+      <Filter>base\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\files\file.h">
+      <Filter>base\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\files\file_enumerator.h">
+      <Filter>base\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\files\file_path.h">
+      <Filter>base\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\files\file_path_watcher.h">
+      <Filter>base\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\files\file_proxy.h">
+      <Filter>base\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\files\file_tracing.h">
+      <Filter>base\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\files\file_util.h">
+      <Filter>base\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\files\file_util_proxy.h">
+      <Filter>base\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\files\important_file_writer.h">
+      <Filter>base\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\files\memory_mapped_file.h">
+      <Filter>base\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\files\scoped_file.h">
+      <Filter>base\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\files\scoped_temp_dir.h">
+      <Filter>base\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\json\json_file_value_serializer.h">
+      <Filter>base\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\json\json_parser.h">
+      <Filter>base\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\json\json_reader.h">
+      <Filter>base\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\json\json_string_value_serializer.h">
+      <Filter>base\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\json\json_value_converter.h">
+      <Filter>base\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\json\json_writer.h">
+      <Filter>base\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\json\string_escape.h">
+      <Filter>base\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\aligned_memory.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\discardable_memory.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\discardable_memory_allocator.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\discardable_shared_memory.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\linked_ptr.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\manual_constructor.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\memory_pressure_listener.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\memory_pressure_monitor.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\memory_pressure_monitor_win.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\ptr_util.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\raw_scoped_refptr_mismatch_checker.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\ref_counted.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\ref_counted_delete_on_message_loop.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\ref_counted_memory.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\scoped_policy.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\scoped_ptr.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\scoped_vector.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\shared_memory.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\shared_memory_handle.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\singleton.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\singleton_objc.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\memory\weak_ptr.h">
+      <Filter>base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\message_loop\incoming_task_queue.h">
+      <Filter>base\message_loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\message_loop\message_loop.h">
+      <Filter>base\message_loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\message_loop\message_loop_task_runner.h">
+      <Filter>base\message_loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\message_loop\message_pump.h">
+      <Filter>base\message_loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\message_loop\message_pump_default.h">
+      <Filter>base\message_loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\message_loop\message_pump_dispatcher.h">
+      <Filter>base\message_loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\message_loop\message_pump_libevent.h">
+      <Filter>base\message_loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\message_loop\message_pump_win.h">
+      <Filter>base\message_loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\message_loop\timer_slack.h">
+      <Filter>base\message_loop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\bucket_ranges.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\field_trial.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\histogram.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\histogram_base.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\histogram_delta_serialization.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\histogram_flattener.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\histogram_macros.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\histogram_samples.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\histogram_snapshot_manager.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\metrics_hashes.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\sample_map.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\sample_vector.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\sparse_histogram.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\statistics_recorder.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\user_metrics.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\metrics\user_metrics_action.h">
+      <Filter>base\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\enum_variant.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\event_trace_consumer.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\event_trace_controller.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\event_trace_provider.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\i18n.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\iat_patch_function.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\iunknown_impl.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\message_window.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\object_watcher.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\pe_image.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\process_startup_helper.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\registry.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\resource_util.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\scoped_bstr.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\scoped_co_mem.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\scoped_com_initializer.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\scoped_comptr.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\scoped_gdi_object.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\scoped_handle.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\scoped_hdc.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\scoped_hglobal.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\scoped_process_information.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\scoped_propvariant.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\scoped_select_object.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\scoped_variant.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\shortcut.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\startup_information.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\win_util.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\windows_version.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\win\wrapped_window_proc.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\numerics\safe_conversions.h">
+      <Filter>base\numerics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\numerics\safe_conversions_impl.h">
+      <Filter>base\numerics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\numerics\safe_math.h">
+      <Filter>base\numerics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\numerics\safe_math_impl.h">
+      <Filter>base\numerics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\power_monitor\power_monitor.h">
+      <Filter>base\power_monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\power_monitor\power_monitor_device_source.h">
+      <Filter>base\power_monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\power_monitor\power_monitor_source.h">
+      <Filter>base\power_monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\power_monitor\power_observer.h">
+      <Filter>base\power_monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\base_prefs_export.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\default_pref_store.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\json_pref_store.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\overlay_user_pref_store.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\persistent_pref_store.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\pref_change_registrar.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\pref_filter.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\pref_member.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\pref_notifier.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\pref_notifier_impl.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\pref_observer.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\pref_registry.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\pref_registry_simple.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\pref_service.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\pref_service_factory.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\pref_store.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\pref_value_map.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\pref_value_store.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\scoped_user_pref_update.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\value_map_pref_store.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\prefs\writeable_pref_store.h">
+      <Filter>base\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\process\kill.h">
+      <Filter>base\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\process\launch.h">
+      <Filter>base\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\process\memory.h">
+      <Filter>base\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\process\process.h">
+      <Filter>base\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\process\process_handle.h">
+      <Filter>base\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\process\process_info.h">
+      <Filter>base\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\process\process_iterator.h">
+      <Filter>base\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\process\process_metrics.h">
+      <Filter>base\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\profiler\alternate_timer.h">
+      <Filter>base\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\profiler\native_stack_sampler.h">
+      <Filter>base\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\profiler\scoped_profile.h">
+      <Filter>base\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\profiler\scoped_tracker.h">
+      <Filter>base\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\profiler\stack_sampling_profiler.h">
+      <Filter>base\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\profiler\tracked_time.h">
+      <Filter>base\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\profiler\win32_stack_frame_unwinder.h">
+      <Filter>base\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\latin1_string_conversions.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\nullable_string16.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\pattern.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\safe_sprintf.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\string_number_conversions.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\string_piece.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\string_split.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\string_tokenizer.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\string_util.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\string_util_win.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\string16.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\stringize_macros.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\stringprintf.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\sys_string_conversions.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\utf_offset_string_conversions.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\utf_string_conversion_utils.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\strings\utf_string_conversions.h">
+      <Filter>base\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\synchronization\cancellation_flag.h">
+      <Filter>base\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\synchronization\condition_variable.h">
+      <Filter>base\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\synchronization\lock.h">
+      <Filter>base\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\synchronization\lock_impl.h">
+      <Filter>base\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\synchronization\spin_wait.h">
+      <Filter>base\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\synchronization\waitable_event.h">
+      <Filter>base\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\synchronization\waitable_event_watcher.h">
+      <Filter>base\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\system_monitor\system_monitor.h">
+      <Filter>base\system_monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\task\cancelable_task_tracker.h">
+      <Filter>base\task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\third_party\dynamic_annotations\dynamic_annotations.h">
+      <Filter>base\third_party\dynamic_annotations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\third_party\dmg_fp\dmg_fp.h">
+      <Filter>base\third_party\dmg_fp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\third_party\icu\icu_utf.h">
+      <Filter>base\third_party\icu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\third_party\xdg_mime\xdgmime.h">
+      <Filter>base\third_party\xdg_mime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\third_party\nspr\prtime.h">
+      <Filter>base\third_party\nspr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\non_thread_safe.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\non_thread_safe_impl.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\platform_thread.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\post_task_and_reply_impl.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\sequenced_task_runner_handle.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\sequenced_worker_pool.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\simple_thread.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\thread.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\thread_checker.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\thread_checker_impl.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\thread_collision_warner.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\thread_id_name_manager.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\thread_local.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\thread_local_storage.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\thread_restrictions.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\watchdog.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\threading\worker_pool.h">
+      <Filter>base\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\time\clock.h">
+      <Filter>base\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\time\default_clock.h">
+      <Filter>base\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\time\default_tick_clock.h">
+      <Filter>base\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\time\tick_clock.h">
+      <Filter>base\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\time\time.h">
+      <Filter>base\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\timer\elapsed_timer.h">
+      <Filter>base\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\timer\hi_res_timer_manager.h">
+      <Filter>base\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\timer\mock_timer.h">
+      <Filter>base\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\timer\timer.h">
+      <Filter>base\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\heap_profiler_allocation_context.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\heap_profiler_allocation_context_tracker.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\heap_profiler_allocation_register.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\heap_profiler_heap_dump_writer.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\heap_profiler_stack_frame_deduplicator.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\heap_profiler_type_name_deduplicator.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\memory_allocator_dump.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\memory_allocator_dump_guid.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\memory_dump_manager.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\memory_dump_provider.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\memory_dump_request_args.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\memory_dump_session_state.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\process_memory_dump.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\process_memory_maps.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\process_memory_maps_dump_provider.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\process_memory_totals.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\process_memory_totals_dump_provider.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\trace_buffer.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\trace_config.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\trace_event.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\trace_event_argument.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\trace_event_etw_export_win.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\trace_event_impl.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\trace_event_memory_overhead.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\trace_event_synthetic_delay.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\trace_event_system_stats_monitor.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\trace_log.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\trace_sampling_thread.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\tracing_agent.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\winheap_dump_provider_win.h">
+      <Filter>base\trace_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\trace_event\common\trace_event_common.h">
+      <Filter>base\trace_event\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\at_exit.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\atomic_ref_count.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\atomic_sequence_num.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\atomicops.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\atomicops_internals_atomicword_compat.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\atomicops_internals_portable.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\atomicops_internals_x86_msvc.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\auto_reset.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\barrier_closure.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\base_export.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\base_paths.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\base_paths_win.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\base_switches.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\base64.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\base64url.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\big_endian.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\bind.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\bind_helpers.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\bind_internal.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\bind_internal_win.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\bit_cast.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\bits.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\build_time.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\callback.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\callback_forward.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\callback_helpers.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\callback_internal.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\callback_list.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\cancelable_callback.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\command_line.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\compiler_specific.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\cpu.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\critical_closure.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\deferred_sequenced_task_runner.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\environment.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\event_types.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\feature_list.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\file_version_info.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\file_version_info_win.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\format_macros.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\guid.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\hash.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\id_map.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\lazy_instance.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\location.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\logging.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\logging_win.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\macros.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\md5.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\move.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\native_library.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\observer_list.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\observer_list_threadsafe.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\path_service.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\pending_task.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\pickle.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\rand_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\run_loop.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\scoped_clear_errno.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\scoped_generic.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\scoped_native_library.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\scoped_observer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\sequence_checker.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\sequence_checker_impl.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\sequenced_task_runner.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\sequenced_task_runner_helpers.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\sha1.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\single_thread_task_runner.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\stl_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\supports_user_data.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\sync_socket.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\sys_byteorder.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\sys_info.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\sys_info_internal.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\task_runner.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\task_runner_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\template_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\thread_task_runner_handle.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\tracked_objects.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\tracking_info.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\tuple.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\value_conversions.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\values.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\version.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\vlog.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\modp_b64\modp_b64.h">
+      <Filter>third_party\modp_b64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\modp_b64\modp_b64_data.h">
+      <Filter>third_party\modp_b64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\boringssl\src\ssl\internal.h">
+      <Filter>third_party\boringssl\src\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\aead_openssl.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\capi_util.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\crypto_export.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\curve25519.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\ec_private_key.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\ec_signature_creator.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\ec_signature_creator_impl.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\encryptor.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\ghash.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\hkdf.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\hmac.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\mac_security_services_lock.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\nss_crypto_module_delegate.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\openssl_bio_string.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\openssl_util.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\p224.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\p224_spake.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\random.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\rsa_private_key.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\scoped_capi_types.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\scoped_nss_types.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\scoped_openssl_types.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\secure_hash.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\secure_util.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\sha2.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\signature_creator.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\signature_verifier.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\symmetric_key.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypto\wincrypt_shim.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\attachment_broker.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\attachment_broker_messages.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\attachment_broker_privileged.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\attachment_broker_privileged_win.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\attachment_broker_unprivileged.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\attachment_broker_unprivileged_win.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\brokerable_attachment.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\handle_attachment_win.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\handle_win.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_channel.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_channel_factory.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_channel_handle.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_channel_proxy.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_channel_reader.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_channel_win.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_descriptors.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_endpoint.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_export.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_handle_win.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_listener.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_logging.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_message.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_message_attachment.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_message_attachment_set.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_message_generator.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_message_macros.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_message_null_macros.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_message_start.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_message_utils.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_message_utils_impl.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_param_traits.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_platform_file.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_sender.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_switches.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_sync_channel.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_sync_message.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\ipc_sync_message_filter.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\message_filter.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\message_filter_router.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\param_traits_log_macros.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\param_traits_macros.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\param_traits_read_macros.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\param_traits_write_macros.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\placeholder_brokerable_attachment.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\struct_constructor_macros.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\struct_destructor_macros.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipc\unix_domain_socket_util.h">
+      <Filter>ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\build\build_config.h">
+      <Filter>base\..\build</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\gtest_prod_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\linux_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
